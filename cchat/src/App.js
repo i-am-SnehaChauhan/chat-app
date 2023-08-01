@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-        <Route path="/" Component={Join} />
+        <Route exact path="/" Component={Join} />
         </Routes>
       </Router>
 
